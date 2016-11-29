@@ -1,0 +1,20 @@
+2016-11-27 22:42:24.065 [main] INFO  com.sinosun.test.Test2 -
+				[{"id":4,"name":"jwl","password":"123"},{"id":6,"name":"jwl","password":"123"}]
+2016-11-27 22:42:24.077 [main] INFO  com.sinosun.test.Test2 -
+				[{"content":"jwl I love you","id":1,"user":{"id":3,"name":"benjiazhen","password":"123456"}},{"content":"benjiazhen Love jwl","id":2,"user":{"id":3,"name":"benjiazhen","password":"123456"}}]
+2016-11-28 20:42:35.422 [main] INFO  com.sinosun.test.Test2 -
+				[{"id":4,"name":"jwl","password":"123"},{"id":6,"name":"jwl","password":"123"}]
+2016-11-28 20:42:35.450 [main] INFO  com.sinosun.test.Test2 -
+				[{"content":"jwl I love you","id":1,"user":{"id":3,"name":"benjiazhen","password":"123456"}},{"content":"benjiazhen Love jwl","id":2,"user":{"id":3,"name":"benjiazhen","password":"123456"}}]
+2016-11-30 00:03:11.231 [main] INFO  com.sinosun.test.Test2 -
+				[{"id":4,"name":"jwl","password":"123"},{"id":6,"name":"jwl","password":"123"}]
+2016-11-30 00:03:11.242 [main] INFO  com.sinosun.test.Test2 -
+				[{"content":"jwl I love you","id":1,"user":{"id":3,"name":"benjiazhen","password":"123456"}},{"content":"benjiazhen Love jwl","id":2,"user":{"id":3,"name":"benjiazhen","password":"123456"}}]
+2016-11-30 00:12:33.242 [main] INFO  com.sinosun.test.Test2 -
+				[{"id":4,"name":"jwl","password":"123"},{"id":6,"name":"jwl","password":"123"}]
+2016-11-30 00:12:33.253 [main] INFO  com.sinosun.test.Test2 -
+				[{"content":"jwl I love you","id":1,"user":{"id":3,"name":"benjiazhen","password":"123456"}},{"content":"benjiazhen Love jwl","id":2,"user":{"id":3,"name":"benjiazhen","password":"123456"}}]
+2016-11-30 00:13:31.038 [main] INFO  com.sinosun.test.Test2 -
+				[{"id":4,"name":"jwl","password":"123"},{"id":6,"name":"jwl","password":"123"}]
+2016-11-30 00:13:31.051 [main] INFO  com.sinosun.test.Test2 -
+				[{"content":"jwl I love you","id":1,"user":{"id":3,"name":"benjiazhen","password":"123456"}},{"content":"benjiazhen Love jwl","id":2,"user":{"id":3,"name":"benjiazhen","password":"123456"}}]

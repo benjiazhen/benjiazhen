@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sinosun.mstp.mybatis.service.IUserService">
+
+<resultMap type="User" id="user">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="password" property="password" />
+     
+    </resultMap>
+
+      
+    <resultMap id="article" type="Article">
+        <id property="id" column="aid" />
+        <result property="content" column="content" />        
+        <association property="user" javaType="User" resultMap="user" />            
+    </resultMap>
+    
+    <select id="getArticles" parameterType="int" resultMap="article">
+       select User.id,User.name,User.password,Article.aid,Article.content from User,Article
+              where User.id=Article.userid and user.id=#{id}
+    </select>
+    <select id="selectUserByName" parameterType="string" resultType="User">
+ select * from `User` where name = #{name}
+    </select>
+    <insert id="addUser" 
+        useGeneratedKeys="true" keyProperty="id" > 
+        insert into User(name,password)  
+             values(#{name},#{password})  
+    </insert>
+    
+     <update id="updateUser" parameterType="User" 
+        > 
+       update User set name = #{name},password=#{password} where id = #{id}  
+    </update>
+    <delete id="deleteUser" parameterType="int">
+        delete from User where id=#{id}
+    </delete>
+</mapper>
